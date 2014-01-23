@@ -13,4 +13,5 @@ fi
 if [ ! -f /usr/local/bin/meteorify ];
 then
 	sudo ln -s "$INSTALL_DIR/meteorify.sh" /usr/local/bin/meteorify
+	chmod 777 /usr/local/bin/meteorify
 fi
