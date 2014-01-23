@@ -1,0 +1,16 @@
+#!/bin/sh
+
+INSTALL_DIR="$HOME/.meteorify”
+
+if [ ! -d "$INSTALL_DIR" ];
+then
+	git clone https://github.com/aldeed/meteorify.git "$INSTALL_DIR"
+else
+	cd "$INSTALL_DIR"
+	git pull
+fi
+
+if [ ! -f /usr/local/bin/meteorify ];
+then
+	sudo ln -s "$INSTALL_DIR/meteorify.sh” /usr/local/bin/meteorify
+fi
