@@ -21,3 +21,5 @@ $ meteorify
 ```
 
 If necessary, you can use any of the same options that `meteor create` supports.
+
+[![Support via Gittip](https://rawgithub.com/twolfson/gittip-badge/0.2.0/dist/gittip.png)](https://www.gittip.com/aldeed/)
