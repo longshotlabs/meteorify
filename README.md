@@ -10,7 +10,7 @@ steps when you already have some source files and then decide to use Meteor.
 To install meteorify on your development machine (Mac or Linux), run this command in your terminal:
 
 ```bash
-$ sudo -H curl https://raw.github.com/aldeed/meteorify/master/install | sh
+$ sudo -H curl https://raw.githubusercontent.com/aldeed/meteorify/master/install | sh
 ```
 
 ## Use It
